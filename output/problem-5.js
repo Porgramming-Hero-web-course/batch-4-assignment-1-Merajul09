@@ -1,7 +1,10 @@
+"use strict";
 {
-    var getProperty = function (person, name) {
+    //
+    const getProperty = (person, name) => {
         return person[name];
     };
-    var person = { name: "Alice", age: 30 };
-    console.log(getProperty(person, "name"));
+    const person = { name: "Alice", age: 30 };
+    getProperty(person, "name");
+    //
 }

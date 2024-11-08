@@ -1,7 +1,8 @@
+"use strict";
 {
-    var removeDuplicates = function (numbers) {
-        var result = numbers.filter(function (num, index) { return numbers.indexOf(num) === index; });
-        return result.sort(function (a, b) { return a - b; });
+    const removeDuplicates = (numbers) => {
+        const result = numbers.filter((num, index) => numbers.indexOf(num) === index);
+        return result.sort((a, b) => a - b);
     };
-    console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5, 9, 12, 10, 8, 9, 8]));
+    removeDuplicates([1, 2, 2, 3, 4, 4, 5, 9, 12, 10, 8, 9, 8]);
 }

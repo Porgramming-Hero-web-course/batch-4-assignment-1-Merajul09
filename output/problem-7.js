@@ -1,18 +1,18 @@
+"use strict";
 {
-    var Car = /** @class */ (function () {
-        function Car(make, model, year) {
+    class Car {
+        constructor(make, model, year) {
             this.make = make;
             this.model = model;
             this.year = year;
         }
-        Car.prototype.getCarAge = function () {
-            var d = new Date();
-            var currentYear = d.getFullYear();
-            var totalYear = currentYear - this.year;
-            return "".concat(totalYear, " (assuming current year is ").concat(currentYear, ")");
-        };
-        return Car;
-    }());
-    var car = new Car("Honda", "Civic", 2018);
+        getCarAge() {
+            const d = new Date();
+            const currentYear = d.getFullYear();
+            const totalYear = currentYear - this.year;
+            return `${totalYear} (assuming current year is ${currentYear})`;
+        }
+    }
+    const car = new Car("Honda", "Civic", 2018);
     car.getCarAge();
 }

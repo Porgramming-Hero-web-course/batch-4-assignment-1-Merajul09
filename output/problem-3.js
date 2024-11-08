@@ -1,12 +1,12 @@
+"use strict";
 {
-    var countWordOccurrences = function (paragraph, check) {
-        var result = paragraph
+    const countWordOccurrences = (paragraph, check) => {
+        const result = paragraph
             .toLowerCase()
             .replace(/[$&+,:;=?@#|'<>.-^*()%!]/g, " ")
             .split(" ");
-        var res = result.filter(function (s) { return s === check; });
+        const res = result.filter((s) => s === check);
         return res.length;
     };
-    console.log(countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript"));
-    console.log(countWordOccurrences("TypeScript is great. I love TypeScript!", "great"));
+    countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript");
 }
