@@ -194,6 +194,6 @@ true;
 
 ## Blog
 
-[![Blog-1](https://github.com/Porgramming-Hero-web-course/batch-4-assignment-1-Merajul09/blob/main/blog/blog-1.md)]
+[[Blog-1](https://github.com/Porgramming-Hero-web-course/batch-4-assignment-1-Merajul09/blob/main/blog/blog-1.md)]
 
-[![Blog-2](https://github.com/Porgramming-Hero-web-course/batch-4-assignment-1-Merajul09/blob/main/blog/blog-2.md)]
+[[Blog-2](https://github.com/Porgramming-Hero-web-course/batch-4-assignment-1-Merajul09/blob/main/blog/blog-2.md)]
